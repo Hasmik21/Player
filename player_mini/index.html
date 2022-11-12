@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="bg"></div>
+        <div class="player">
+            <div class="player-track">
+                <h1 class="artistName">Севак Ханагян</h1>
+                <h2 class="songName">Без тебя</h2> 
+                <div class="time">
+                    <input type="range" name="time" min="0" max="100" value="0" step="1">
+                    <div class="track-time">
+                        <span class="current-time"></span>
+                        <span class="music-duration"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="audioplayer">
+                <audio class="audio" type="audio/mpeg"></audio>
+                <div class="image"></div>
+                <div class="controls">
+                    <div class="prev">
+                    </div>
+                    <div class="play">
+                        <button class="start"><i class="fa fa-play"></i></button>
+                        <button class="pause"><i class="fa fa-pause"></i></button>
+                    </div>
+                    <div class="next">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
